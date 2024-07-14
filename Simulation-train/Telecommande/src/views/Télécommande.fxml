@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="99.0" prefWidth="372.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.Controller">
+   <children>
+      <Button fx:id="ButtonStart" layoutY="-2.0" mnemonicParsing="false" onAction="#TrainRoule" prefHeight="99.0" prefWidth="90.0" text="Play" />
+      <Button fx:id="ButtonStop" disable="true" layoutX="89.0" layoutY="-2.0" mnemonicParsing="false" onAction="#TrainStop" prefHeight="99.0" prefWidth="90.0" text="Pause" />
+      <Button fx:id="ButtonStep" layoutX="179.0" mnemonicParsing="false" onAction="#TrainStep" prefHeight="99.0" prefWidth="90.0" text="Step" />
+      <Button fx:id="ButtonReset" layoutX="270.0" layoutY="2.0" mnemonicParsing="false" onAction="#ResetMap" prefHeight="93.0" prefWidth="101.0" text="Reset" />
+   </children>
+</AnchorPane>
