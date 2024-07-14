@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.8049837486457205" prefHeight="602.0" prefWidth="1038.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.views.AffichageFx">
+   <items>
+      <ScrollPane prefHeight="400.0" prefWidth="500.0">
+        <content>
+            <GridPane fx:id="mainGrid" cache="true" cacheHint="SCALE" cacheShape="false" centerShape="false" gridLinesVisible="true" pickOnBounds="false" prefHeight="600.0" prefWidth="835.0" scaleShape="false" snapToPixel="false">
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </GridPane>
+        </content>
+      </ScrollPane>
+      <AnchorPane fx:id="colorMenu" prefHeight="600.0" prefWidth="100.0" />
+   </items>
+</SplitPane>
