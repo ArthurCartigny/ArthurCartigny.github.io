@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="99.0" prefWidth="270.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="télécommande.views.Controller">
+   <children>
+      <Button fx:id="ButtonPlay" layoutY="-2.0" mnemonicParsing="false" onAction="#TrainRoule" prefHeight="99.0" prefWidth="90.0" text="Play" />
+      <Button fx:id="ButtonPause" layoutX="89.0" layoutY="-2.0" mnemonicParsing="false" onAction="#TrainStop" prefHeight="99.0" prefWidth="90.0" text="Pause" />
+      <Button fx:id="ButtonStep" layoutX="179.0" mnemonicParsing="false" onAction="#TrainStep" prefHeight="99.0" prefWidth="90.0" text="Step" />
+   </children>
+</AnchorPane>
